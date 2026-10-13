@@ -1,0 +1,28 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# macOS
+.DS_Store
+
+# Datasets and generated files
+data/
+raw/
+runs/
+out/
+assets/
+*.pt
+*.pth
+*.ckpt
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
